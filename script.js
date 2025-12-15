@@ -35,4 +35,7 @@ var winner =arr[index]
 console.log(winner);
 h2.innerHTML= winner.team
 
+h2.style.backgroundColor=winner.primary
+h2.style.color=winner.sec
+
 })
